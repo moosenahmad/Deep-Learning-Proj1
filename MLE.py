@@ -17,7 +17,7 @@ class MLE(MU):
 
     def variance_estimator(self):
 	      variance = 0
-        //Will need to convert variance equation to python code here
+        #Will need to convert variance equation to python code here
 	      return variance
 	
 
