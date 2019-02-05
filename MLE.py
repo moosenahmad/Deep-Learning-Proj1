@@ -19,7 +19,7 @@ class MLE(MU):
 	######## Need to do variance equation here
 	
         #Will need to convert variance equation to python code here
-	return variance
+	return np.var(data)
 	
 
 """
