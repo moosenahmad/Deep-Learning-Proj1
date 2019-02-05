@@ -16,9 +16,10 @@ class MLE(MU):
         MU.__init__(self, data)
 
     def variance_estimator(self):
-	      variance = 0
+	######## Need to do variance equation here
+	
         #Will need to convert variance equation to python code here
-	      return variance
+	return variance
 	
 
 """
@@ -27,3 +28,10 @@ Write code to read data from given .txt file,  use numpy.loadtxt
 
 filename = "data1.txt"
 data = np.loadtxt(filename)
+
+
+mle = MLE(data).variance_estimator()
+mu = MLE(data).mean_estimator()
+
+print(mle) #Variance
+print(mu) #Mean
